@@ -1,0 +1,40 @@
+{
+	"version": 2,
+	"title": "Test",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#FCF5ED"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#3F67C6"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#374C80"
+				},
+				{
+					"name": "Gray",
+					"slug": "gray",
+					"color": "#ccc"
+				},
+				{
+					"name": "Black",
+					"slug": "black",
+					"color": "#444"
+				},
+				{
+					"name": "White",
+					"slug": "white",
+					"color": "#fff"
+				}
+			]
+		}
+	}
+}
