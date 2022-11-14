@@ -14,6 +14,14 @@
 	],
 	"customTemplates": [
 		{
+			"name": "no-title",
+			"title": "No title",
+			"postTypes": [
+				"page",
+				"post"
+			]
+		},
+		{
 			"name": "empty",
 			"title": "Empty",
 			"postTypes": [
@@ -106,7 +114,7 @@
 			}
 		},
 		"layout": {
-			"contentSize": "1320px",
+			"contentSize": "1200px",
 			"wideSize": "1520px"
 		},
 		"spacing": {
@@ -134,7 +142,7 @@
 				{
 					"name": "Small",
 					"slug": "small",
-					"size": "14px"
+					"size": "16px"
 				},
 				{
 					"name": "Medium",

@@ -197,7 +197,7 @@ $block_patterns = array(
 	/**
 	 * Filters the theme block patterns.
 	 *
-	 * @since Boo 0.8.0
+	 * @since Boo 0.0.1
 	 */
 	$block_patterns = apply_filters( 'boo_block_patterns', $block_patterns );
 
@@ -214,7 +214,7 @@ add_action( 'init', 'boo_register_block_patterns', 9 );
 /**
  * Block variations
  *
- * @since Boo 0.8.0
+ * @since Boo 0.0.1
  */
 
 // Buttons styles
@@ -242,6 +242,7 @@ register_block_style(
 		'label' => __( 'Boxshadow', 'boo' ),
 	)
 );
+
 register_block_style(
 	'core/group',
 	array(
@@ -258,6 +259,7 @@ register_block_style(
 		'label' => __( 'Boxshadow', 'boo' ),
 	)
 );
+
 register_block_style(
 	'core/image',
 	array(

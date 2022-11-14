@@ -15,8 +15,8 @@ return array(
 									<hr class="wp-block-separator alignfull has-text-color has-background is-style-wide" style="background-color:#dfdfdf;color:#dfdfdf"/>
 									<!-- /wp:separator -->
 
-									<!-- wp:columns {"align":"full","style":{"spacing":{"margin":{"top":"30px","bottom":"0px"}}}} -->
-									<div class="wp-block-columns alignfull" style="margin-top:30px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center"} -->
+									<!-- wp:columns {"style":{"spacing":{"margin":{"top":"30px","bottom":"0px"}}}} -->
+									<div class="wp-block-columns" style="margin-top:30px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center"} -->
 									<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"800"}},"className":"is-style-no-margin","fontSize":"medium"} -->
 									<p class="has-text-align-center is-style-no-margin has-medium-font-size" style="font-style:normal;font-weight:800">' . esc_html__( 'Your brand', 'boo' ) . '</p>
 									<!-- /wp:paragraph --></div>

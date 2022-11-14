@@ -12,11 +12,10 @@ return array(
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0px","bottom":"50px"}}},"layout":{"inherit":true}} -->
 									<div class="wp-block-group alignfull" style="padding-top:0px;padding-bottom:50px"><!-- wp:separator {"customColor":"#dfdfdf","align":"full","className":"is-style-wide"} -->
-									<hr class="wp-block-separator alignfull has-text-color has-background is-style-wide" style="background-color:#dfdfdf;color:#dfdfdf"/>
 									<!-- /wp:separator -->
-
-									<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"100px","bottom":"0px"}}}} -->
-									<div class="wp-block-columns alignwide" style="margin-top:100px;margin-bottom:0px"><!-- wp:column {"width":"20%"} -->
+									
+									<!-- wp:columns {"style":{"spacing":{"margin":{"top":"100px","bottom":"0px"}}}} -->
+									<div class="wp-block-columns" style="margin-top:100px;margin-bottom:0px"><!-- wp:column {"width":"20%"} -->
 									<div class="wp-block-column" style="flex-basis:20%"><!-- wp:heading {"level":4} -->
 									<h4 id="services">Services</h4>
 									<!-- /wp:heading -->
